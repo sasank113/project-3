@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tab1">
+        <h1 class="header1">Quiz</h1>
+        <h1>Welcome</h1>
+<button id="start" class="correct curve" onclick="start()">Start the Quiz </button>
+<button class="wrong curve" onclick="window.close()">Exit</button>
+    </div>
+    <div id="tab2">
+        
+    <h1 id="quizid">QUIZ</h1>
+    <h1 id="scoreid">Score :<span id="spn">0</span></h1>
+
+    <h1 id="Question"></h1>
+    <ul id="options">
+           <button id="option0" onclick="validate(0)"></button>
+   <button id="option1" onclick="validate(1)"></button>
+<button id="option2" onclick="validate(2)"></button>
+<button id="option3" onclick="validate(3)"></button>
+    <button class="curve" id="nextbtn" onclick="next()">Next</button>
+    <button class="wrong curve" id="quit" onclick="finish()">Quit</button>
+    </ul>
+    
+</div>
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    background-color: cadetblue;
+    color: black;
+}
+.correct{
+color:white;
+background-color: rgb(48, 238, 70);
+}
+
+.wrong {
+    color:white;
+    background-color: red;
+}
+
+h1,ul,#tab1{
+    text-align: center; 
+}
+
+.header1{
+    font-size:80px;
+}
+#nextbtn{
+    color:white;
+    background-color: blue;
+   
+}
+
+.curve{
+     border-radius:25px;
+}
+
+button{
+    width:50%;
+    height:40px;
+    margin:15px;
+    text-align: center;
+    font-size:20px;
+}
+
+@media(max-width:600px)
+{
+    .header1{
+        font-size:60px;
+    }
+
+    .curve{
+        border-radius:15px;
+    }
+
+    button{
+    width:50%;
+    height:30px;
+    margin:10px;
+    text-align: center;
+    font-size:15px;
+    }
+}
+
